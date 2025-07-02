@@ -1,16 +1,15 @@
-import AppAppBar from './components/AppAppBar'
+import WelcomePage from './components/AppAppBar'
 
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [] = useState<any>(0)
 
   return (
     <>
-    <AppAppBar />
+    <WelcomePage />
     </>
   )
 }
