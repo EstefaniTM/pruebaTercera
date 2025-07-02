@@ -1,17 +1,7 @@
-import WelcomePage from './components/AppAppBar'
-
-import { useState } from 'react'
-
-import './App.css'
+import WelcomePage from './components/AppAppBar';
 
 function App() {
-  const [] = useState<any>(0)
-
-  return (
-    <>
-    <WelcomePage />
-    </>
-  )
+  return <WelcomePage />;
 }
 
-export default App
+export default App;
